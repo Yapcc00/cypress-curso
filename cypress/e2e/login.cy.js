@@ -1,4 +1,3 @@
-const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 //describe es el suite  of pruebas, conjunto de prueba
 describe("Login", () => {
