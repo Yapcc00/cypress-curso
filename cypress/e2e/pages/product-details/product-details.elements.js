@@ -3,6 +3,7 @@ export class ProductDetailsElements {
         return {
             get addCart() {
                 return cy.contains('a', 'Add to cart');
+    
             }
         }
     }
