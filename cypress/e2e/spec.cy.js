@@ -1,11 +1,13 @@
+const { HomeMethods } = require("./pages/home/home.mehods");
 const { LoginMethods } = require("./pages/login/login.methods");
+const { signUpMethods } = require("./pages/signUp/signUp.methods");
+
 
 describe('', () => {
     it('', () => {
         cy.visit('https://www.demoblaze.com/');
-        cy.get('a[data-target="#logInModal"]').click();
-        LoginMethods.Login('parco','qa');
-        cy.wait(1000);
+        HomeMethods.clickOnProducts("Iphone 6 32gb")
+        cy.wait(10000)
        
     })
 })
